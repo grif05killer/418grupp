@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container .content .bosh
+{
+    width: 250px;
+    height: 75px;
+    flex-shrink: 0;
+    display: flex;
+    width: 682px;
+    padding: 2px 541px 4px 12.5px;
+    align-items: flex-start;
+    gap:  530px;
+    justify-content: space-between;
+}
+
+
+.container .content .bosh .logo
+{
+    width: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container .content .bosh .NavLinks
+{
+    width: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container .content .teppaRasm
+{
+    width: 1366px;
+    height: 504px;
+    flex-shrink: 0;
+    background: url('./Rectangle.png')no-repeat;
+}
+
+.rasmSuzlari
+{
+    width: 1350px;
+    height: 118px;
+    flex-shrink: 0;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.teppaRasm .rasmSuzlari .birSuz
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.teppaRasm .rasmSuzlari .ikkinchiSuz
+{
+    width: 211px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-left: 570px;
+}
+
+.teppaRasm .rasmSuzlari .uchunchiSuz
+{
+    width: 95px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 630px;
+    margin-top: 35px;
+}
+
+.YanaSuzlar1
+{
+    width: 579.156px;
+    height: 153px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+.YanaSuzlar1 .birinchiSuz
+{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    margin-left: 555px;
+}
+
+.YanaSuzlar1 .ikkinchiSuz
+{
+    width: 481px;
+    color: #A0A0A0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    margin-left: 400px;
+}
+
+.YanaSuzlar1 .uchunchSUZ
+{
+    width: 100px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-left: 570px;
+}
+
+.ikkitaRasmlar
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.ikkitaRasmlar .rasm1
+{
+    width: 658px;
+    height: 441px;
+    flex-shrink: 0;
+    background: url('./Rectangle\ \(2\).png');
+}
+
+.ikkitaRasmlar .rasm2
+{
+    width: 658px;
+    height: 441px;
+    flex-shrink: 0;
+    background: url('./Rectangle.png');
+}
+
+.birinchiD
+{
+    display: flex;
+    width: 682.5px;
+    height: 570.531px;
+    padding: 0px 12.5px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 51px;
+    flex-shrink: 0;
+}
+
+.ikkinchiD
+{
+    display: flex;
+    width: 682.5px;
+    height: 570.531px;
+    padding: 0px 12.5px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 51px;
+    flex-shrink: 0;
+}
+
+.sus
+{
+    display: flex;
+    width: 657.5px;
+    padding-bottom: 13.531px;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.usu
+{
+    display: flex;
+    width: 657.5px;
+    padding-bottom: 13.531px;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
